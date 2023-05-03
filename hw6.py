@@ -1,4 +1,4 @@
-def multi (n):
+def multi1 (n):
     for r in range(2,6,1):
         print(f'{r}x{n}={n*r:2d}',end=" ")
     print()
@@ -9,7 +9,7 @@ def multi (n):
     print()
 
 for x in range(1,10,1):
-    multi(x)
+    multi1(x)
 print()
 for y in range(1,10,1):
     multi(y)
